@@ -10,9 +10,9 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
+	<script src="./js/jquery-2.1.0.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/blocs.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
     <title>Contactez-nous</title>
@@ -73,24 +73,24 @@
 						<label>
 							Nom
 						</label>
-						<input id="name" class="form-control" required/>
+						<input id="name" placeholder="Votre nom" class="form-control" required/>
 					</div>
 					<div class="form-group">
 						<label>
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required/>
+						<input id="email" placeholder="Adresse email" class="form-control" type="email" required/>
 					</div>
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504"/>
+						<input class="form-control" placeholder="Internet, publicité, bouche à oreille..." type="email" required id="input_504"/>
 					</div>
 					<div class="form-group">
 						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+							Brief de votre projet<br>
+						</label><textarea id="message" placeholder="Ajoutez autant de détails que nécessaire" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
